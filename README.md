@@ -38,10 +38,12 @@ This project demonstrates a complete A/B testing pipeline for **Lunar Tech**, an
 
 ---
 
-## [Images](https://github.com/nitinlingwal91/SplitEase/tree/main/media/images)
+## [Images](https://github.com/nitinlingwal91/Lunar-Tech-AB-Testing/tree/main/images)
 
-![Demo Image1](https://github.com/nitinlingwal91/SplitEase/blob/main/media/images/Screenshot%20(97).png)
-![Demo Image2](https://github.com/nitinlingwal91/SplitEase/blob/main/media/images/Screenshot%20(101).png)
+![Demo Image1](https://github.com/nitinlingwal91/Lunar-Tech-AB-Testing/blob/main/images/lunar_power_analysis.png)
+![Demo Image2](https://github.com/nitinlingwal91/Lunar-Tech-AB-Testing/blob/main/images/lunar_eda_sanity_checks.png)
+![Demo Image2](https://github.com/nitinlingwal91/Lunar-Tech-AB-Testing/blob/main/images/lunar_statistical_analysis.png)
+![Demo Image2](https://github.com/nitinlingwal91/Lunar-Tech-AB-Testing/blob/main/images/lunar_financial_analysis.png)
 
 ## 🎓 Key Results
 
