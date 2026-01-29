@@ -192,7 +192,7 @@ from google.colab import files
 uploaded = files.upload()  # Select ab_data.csv
 ```
 
-**Step 6: Install dependencies (run in first cell)**
+**Step 6: Install dependencies **
 ```bash
 !pip install -r requirements.txt
 ```
@@ -287,7 +287,7 @@ lunar-tech-ab-testing/
 ├── 04_lunar_business_impact.ipynb     # ROI & sensitivity analysis
 │
 ├── data/
-│   ├── ab_data.csv                    # Raw Kaggle dataset (download required)
+│   ├── ab_data.csv                    # Raw Kaggle dataset 
 │   ├── lunar_design_parameters.csv    # Generated design specs
 │   │── lunar_tech_summary.csv         # Summary statistics
 │   ├── lunar_statistical_results.csv  # Test results
