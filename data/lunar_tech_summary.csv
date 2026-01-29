@@ -1,0 +1,9 @@
+Metric,Value
+Total Users,20000
+Control Users,10000
+Experimental Users,10000
+Control CTR (%),19.8900
+Experimental CTR (%),61.1600
+Total Clicks,8105
+Control Clicks,1989
+Experimental Clicks,6116

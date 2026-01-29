@@ -1,0 +1,13 @@
+Parameter,Value
+Significance Level (α),5.0%
+Type II Error (β),20.0%
+Statistical Power (1-β),80.0%
+Control CTR,0.1989
+Experimental CTR,0.6116
+Effect Size (pp),0.4127
+Relative Lift (%),207.49
+Required n per group,11
+Total Required n,22
+Actual n per group,"10,000"
+Total Actual n,"20,000"
+Cohen h,0.8714

@@ -1,0 +1,11 @@
+Test_Parameter,Value
+Control CTR (%),19.8900
+Experimental CTR (%),61.1600
+Absolute Lift (pp),41.2700
+Relative Lift (%),207.49
+Z-Statistic,59.4416
+P-Value,0.0000000000
+Is Significant,YES
+Cohen h,0.8714
+CI Lower (pp),40.0352
+CI Upper (pp),42.5048
