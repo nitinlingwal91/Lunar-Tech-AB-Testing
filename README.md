@@ -155,15 +155,15 @@ Before starting, ensure you have:
    - Dataset: [Lunar Tech Case Study A/B Testing](https://www.kaggle.com/datasets/andrsulloa/lunar-tech-case-study-ab-testing)
    - Download: `ab_data.csv` (required to run notebooks)
 
-5. **Jupyter Notebook or VS Code**
+5. **Jupyter Notebook or Antigravity**
    - Jupyter: Built-in with `pip install jupyter`
-   - VS Code: [Download](https://code.visualstudio.com/) + Python extension
+   - Antigravity: [Download](https://antigravity.google/) + Python extension
 
 ---
 
 ## 💻 Installation and Setup
 
-### 🚀 FASTEST: Google Colab (10 minutes)
+### 🚀 FASTEST: Google Colab 
 
 Perfect for first-time users - **zero setup required!**
 
@@ -206,7 +206,7 @@ uploaded = files.upload()  # Select ab_data.csv
 
 ---
 
-### 💻 LOCAL: Windows Installation (15-20 minutes)
+### 💻 LOCAL: Windows Installation 
 
 **Step 1: Clone repository**
 ```bash
@@ -244,7 +244,7 @@ Browser opens automatically at `http://localhost:8888`
 
 ---
 
-### 🍎 LOCAL: macOS/Linux Installation (15-20 minutes)
+### 🍎 LOCAL: macOS/Linux Installation 
 
 **Step 1: Clone repository**
 ```bash
@@ -291,25 +291,18 @@ lunar-tech-ab-testing/
 │
 ├── data/
 │   ├── ab_data.csv                    # Raw Kaggle dataset (download required)
-│   └── lunar_design_parameters.csv    # Generated design specs
-│
-├── outputs/
-│   ├── lunar_power_analysis.png       # Power curve visualization
-│   ├── lunar_eda_sanity_checks.png    # Data quality charts
-│   ├── lunar_statistical_analysis.png # Test results visualization
-│   ├── lunar_financial_analysis.png   # Revenue projections
-│   ├── lunar_tech_summary.csv         # Summary statistics
+│   ├── lunar_design_parameters.csv    # Generated design specs
+│   │── lunar_tech_summary.csv         # Summary statistics
 │   ├── lunar_statistical_results.csv  # Test results
 │   ├── lunar_business_metrics.csv     # Financial metrics
 │   └── lunar_sensitivity_analysis.csv # Scenario analysis
 │
-├── docs/
-│   ├── README.md                      # This file
-│   ├── QUICKSTART.md                  # 5-minute quick start
-│   ├── SETUP_GUIDE.md                 # Complete setup guide
-│   ├── PROJECT_SUMMARY.md             # Skills & learning outcomes
-│   └── INDEX.md                       # Navigation guide
-│
+├── images/
+│   ├── lunar_power_analysis.png       # Power curve visualization
+│   ├── lunar_eda_sanity_checks.png    # Data quality charts
+│   ├── lunar_statistical_analysis.png # Test results visualization
+│   ├── lunar_financial_analysis.png   # Revenue projections
+│   
 ├── requirements.txt                   # Python dependencies
 ├── .env.example                       # Environment variables template
 ├── .gitignore                         # Git ignore rules
@@ -317,76 +310,6 @@ lunar-tech-ab-testing/
 ```
 
 ---
-
-## 🏃 Quick Start Guide
-
-**Choose your path:**
-
-### Path A: Google Colab (FASTEST - 10 min)
-```
-1. Go to colab.research.google.com
-2. Upload 4 .ipynb files
-3. Upload ab_data.csv
-4. Run all cells
-5. Get results in 25 minutes!
-```
-
-### Path B: Local Computer (15-20 min)
-```
-1. Clone repository
-2. Create virtual environment
-3. Install requirements.txt
-4. Download ab_data.csv
-5. jupyter notebook
-6. Run all notebooks
-7. Get results in 25 minutes!
-```
-
-### Path C: Full Setup with Documentation
-- Read QUICKSTART.md (5 min)
-- Follow SETUP_GUIDE.md (15-20 min)
-- Explore PROJECT_SUMMARY.md (10 min)
-
----
-
-## 📚 Usage Guide
-
-### Running the Analysis Pipeline
-
-**Notebook Execution Order:**
-
-1. **01_lunar_design.ipynb** (Start here!)
-   - Load raw data
-   - Perform power analysis
-   - Determine sample size requirements
-   - Output: Design parameters CSV
-
-2. **02_lunar_eda_sanity.ipynb**
-   - Exploratory data analysis
-   - Data quality validation
-   - Group balance checks
-   - Output: Sanity check visualizations
-
-3. **03_lunar_statistical_test.ipynb**
-   - Implement two-sample z-test
-   - Calculate p-values and confidence intervals
-   - Visualize test results
-   - Output: Statistical analysis PNG
-
-4. **04_lunar_business_impact.ipynb**
-   - Calculate revenue impact
-   - Perform ROI analysis
-   - Run sensitivity analysis (7 scenarios)
-   - Output: Financial analysis + CSV exports
-
-### Understanding the Output
-
-**After running all notebooks, you'll have:**
-
-✅ 4 Professional PNG visualizations (ready for presentations)  
-✅ 6 CSV files with detailed metrics  
-✅ Console output with key statistics  
-✅ Complete analysis pipeline documentation  
 
 ### Modifying Parameters
 
@@ -400,9 +323,7 @@ To experiment with different scenarios:
 
 ---
 
-## 💪 Skills You'll Learn
-
-### Statistical Concepts (6 topics)
+## 💪 Skills What've Learn
 
 - ✅ **Power Analysis** - Determining sample size and detecting effect sizes
 - ✅ **Hypothesis Testing** - Two-sample z-test for proportions
@@ -410,106 +331,22 @@ To experiment with different scenarios:
 - ✅ **Type I & Type II Errors** - Understanding false positives/negatives
 - ✅ **Effect Size (Cohen's h)** - Measuring practical significance
 - ✅ **Statistical vs Practical Significance** - Beyond p-values
-
-### Data Analysis Skills (5 techniques)
-
 - ✅ **Exploratory Data Analysis (EDA)** - Understanding data distributions
 - ✅ **Data Validation & Sanity Checks** - Ensuring data quality
 - ✅ **Summary Statistics** - Calculating aggregations and metrics
 - ✅ **Group Comparisons** - Analyzing differences between groups
 - ✅ **Outlier Detection** - Identifying anomalies in data
-
-### Business Analysis Skills (5 applications)
-
 - ✅ **Revenue Impact Calculation** - Quantifying business outcomes
 - ✅ **ROI & Payback Period** - Financial return analysis
 - ✅ **Sensitivity Analysis** - Testing what-if scenarios
 - ✅ **Decision Making** - From data to actionable insights
 - ✅ **Stakeholder Communication** - Presenting results clearly
-
-### Technical Skills (4 tools)
-
 - ✅ **Python Programming** - pandas, numpy, scipy for data science
 - ✅ **Statistical Computing** - scipy.stats for hypothesis testing
 - ✅ **Data Visualization** - matplotlib and seaborn for professional charts
 - ✅ **Jupyter Notebooks** - Interactive development and documentation
 
 ---
-
-## 💼 Portfolio Value
-
-### For Job Interviews
-
-**What interviewers will see:**
-
-- ✅ Real-world Kaggle dataset (not toy data)
-- ✅ Complete analysis pipeline (design → test → impact)
-- ✅ 1,200+ lines of professional, well-documented code
-- ✅ Impressive metrics (207% lift with p<0.0001!)
-- ✅ Statistical rigor (power analysis, effect sizes)
-- ✅ Business focus (ROI: 7,064%)
-
-**Talking points:**
-```
-"I analyzed an A/B test that showed 207% conversion lift, 
-representing ₹495 Crore annual revenue impact with a 7,064% 
-first-year ROI. I validated the design with power analysis, 
-confirmed data quality with sanity checks, performed 
-hypothesis testing with z-tests, and calculated business impact."
-```
-
-### For GitHub Portfolio
-
-- ✅ 4 polished, well-commented Jupyter notebooks
-- ✅ 4 publication-ready visualizations (300 DPI PNG)
-- ✅ Professional README with setup instructions
-- ✅ Complete documentation (7 guide files)
-- ✅ Clear project structure
-- ✅ Reproducible analysis pipeline
-
-### For LinkedIn
-
-**Post ideas:**
-
-1. **Results Highlight:**
-   "Just completed comprehensive A/B testing analysis: 207% conversion lift, ₹495 Cr annual revenue impact, 99.99% statistical confidence. Check out my GitHub portfolio! 📊📈 #DataScience #Analytics"
-
-2. **Skills Showcase:**
-   "New project: A/B testing with Python - Power analysis, hypothesis testing, ROI calculation, sensitivity analysis. Real data, real insights! 🔬 #DataAnalytics #Python"
-
-3. **Technical Deep Dive:**
-   "Implemented two-sample z-test for A/B testing analysis using scipy.stats. Full pipeline: design → EDA → hypothesis testing → business impact. Complete with visualizations and documentation! 💻"
-
----
-
-## ⏱️ Time Commitment
-
-| Phase | Duration | Details |
-|-------|----------|---------|
-| **Read QUICKSTART.md** | 5 min | Choose your setup path |
-| **Setup & Installation** | 10-15 min | First-time setup only |
-| **Run All Notebooks** | 25 min | Fully automated analysis |
-| **Review Outputs** | 10 min | Study results and charts |
-| **Master the Code** | 2-3 hours | Understand every calculation |
-| **Portfolio Setup** | 1-2 hours | GitHub + LinkedIn |
-| **Interview Preparation** | 1-2 hours | Practice your pitch |
-| **TOTAL** | **8-10 hours** | **Complete mastery** |
-
----
-
-## 🐛 Troubleshooting
-
-### Common Issues & Solutions
-
-#### Issue: "No module named 'pandas'"
-**Solution:**
-```bash
-pip install -r requirements.txt
-```
-If that fails, install individually:
-```bash
-pip install pandas numpy scipy matplotlib seaborn jupyter
-```
 
 #### Issue: "File not found: ab_data.csv"
 **Solution:**
@@ -519,57 +356,6 @@ pip install pandas numpy scipy matplotlib seaborn jupyter
 ```python
 df = pd.read_csv('path/to/ab_data.csv')
 ```
-
-#### Issue: "Jupyter command not found"
-**Solution:**
-```bash
-pip install jupyter
-jupyter notebook
-```
-
-#### Issue: Virtual environment not activating
-**Windows:**
-```bash
-.venv\Scripts\activate
-```
-**macOS/Linux:**
-```bash
-source .venv/bin/activate
-```
-
-#### Issue: "PermissionError" on macOS/Linux
-**Solution:**
-```bash
-chmod +x .venv/bin/python
-source .venv/bin/activate
-```
-
-#### Issue: Colab upload timeout
-**Solution:**
-- Use Kaggle API integration in Colab
-- Or re-upload in smaller chunks
-- Check internet connection
-
-### Getting Help
-
-1. **Check Documentation:**
-   - See SETUP_GUIDE.md → Troubleshooting section
-   - Review PROJECT_SUMMARY.md for concepts
-
-2. **Review Notebook Comments:**
-   - Each cell has explanatory comments
-   - Read output messages carefully
-
-3. **Test with Sample Data:**
-   - Run notebooks with smaller dataset first
-   - Verify each step works
-
-4. **Check Environment:**
-   - Verify Python version: `python --version`
-   - Verify virtual environment active: `(.venv)` in terminal
-   - List installed packages: `pip list`
-
----
 
 ## 📚 Additional Resources
 
@@ -583,96 +369,10 @@ source .venv/bin/activate
 - **Matplotlib:** https://matplotlib.org/stable/contents.html
 - **Seaborn:** https://seaborn.pydata.org/
 
-### Learning Resources
-
-- **Statistics:**
-  - Khan Academy: Probability and Statistics
-  - StatQuest with Josh Starmer (YouTube)
-
-- **A/B Testing:**
-  - Udacity: A/B Testing Course
-  - Growth.com: A/B Testing Handbook
-
-- **Python for Data Science:**
-  - Real Python: Python Tutorials
-  - DataCamp: Python Courses
-
-- **Business Analytics:**
-  - Google Analytics Academy
-  - HubSpot Academy: Marketing Analytics
-
 ### Related Datasets
 
 - Kaggle Datasets: https://www.kaggle.com/datasets
 - Lunar Tech A/B Testing: https://www.kaggle.com/datasets/andrsulloa/lunar-tech-case-study-ab-testing
-
----
-
-## 🎉 Next Steps
-
-### Immediate Actions
-
-**Today (30 min):**
-1. Read QUICKSTART.md
-2. Choose setup path (Colab or Local)
-3. Download ab_data.csv from Kaggle
-
-**Tomorrow (1 hour):**
-1. Complete setup
-2. Run all 4 notebooks
-3. Review outputs
-
-### Deeper Learning
-
-**Week 1 (3-4 hours):**
-- Study each notebook's code
-- Understand calculations
-- Modify parameters and experiment
-
-**Week 2 (2-3 hours):**
-- Upload to GitHub
-- Create portfolio README
-- Update LinkedIn profile
-
-**Month 1+:**
-- Use in job interviews
-- Reference in applications
-- Build similar projects
-
-### Taking It Further
-
-- Extend analysis to multivariate testing
-- Build interactive dashboard
-- Create web app for test analysis
-- Develop testing framework
-
----
-
-## 🎓 Learning Outcomes
-
-After completing this project, you can confidently say:
-
-**"I can analyze A/B tests end-to-end, from experimental design to business impact."**
-
-### You'll be able to:
-
-**Explain:**
-- How A/B tests work and when to use them
-- Statistical significance vs practical significance
-- Power analysis and sample size determination
-- ROI calculation and business impact
-
-**Demonstrate:**
-- "I validated the test design with power analysis"
-- "I confirmed data quality with sanity checks"
-- "I performed hypothesis testing with z-tests"
-- "I calculated business ROI with sensitivity analysis"
-
-**Quantify:**
-- "207% conversion lift (highly significant at p<0.0001)"
-- "₹495 Crore annual revenue impact"
-- "7,064% first-year ROI"
-- "3-day payback period"
 
 ---
 
@@ -682,16 +382,8 @@ After completing this project, you can confidently say:
 
 - **GitHub Issues:** [Report Issues](https://github.com/your-username/lunar-tech-ab-testing/issues)
 - **GitHub Discussions:** [Start Discussion](https://github.com/your-username/lunar-tech-ab-testing/discussions)
-- **Email:** your-email@example.com
-- **LinkedIn:** [Your Profile](https://linkedin.com/in/your-profile)
-
-### Getting in Touch
-
-Feel free to:
-- Ask questions about the project
-- Share improvements or modifications
-- Report bugs or issues
-- Suggest additional analysis
+- **Email:** nitinlingwal91@gmail.com
+- **LinkedIn:** [Your Profile](www.linkedin.com/in/nitinlingwal)
 
 ---
 
@@ -703,46 +395,6 @@ You are free to:
 - ✅ Use for personal/commercial projects
 - ✅ Modify and distribute
 - ✅ Use in your portfolio
-- ✅ Reference in interviews
-
----
-
-## 🙏 Acknowledgments
-
-- **Kaggle** - For the Lunar Tech A/B Testing dataset
-- **SciPy** - For statistical testing tools
-- **Pandas & NumPy** - For data manipulation
-- **Matplotlib & Seaborn** - For visualization capabilities
-- **Python Community** - For the amazing ecosystem
-
----
-
-## ✅ Quick Checklist
-
-Before you start, verify:
-
-- [ ] Python 3.8+ installed
-- [ ] pip and Git available
-- [ ] GitHub/Kaggle account (optional)
-- [ ] Internet connection for downloads
-- [ ] ~500MB free disk space
-- [ ] 30 minutes available for setup
-
-After setup:
-
-- [ ] Virtual environment created & activated
-- [ ] Dependencies installed successfully
-- [ ] ab_data.csv in project folder
-- [ ] Jupyter notebook running
-- [ ] First notebook loads without errors
-
-After running:
-
-- [ ] 4 PNG visualizations created
-- [ ] 6 CSV files exported
-- [ ] Console shows p-value < 0.0001
-- [ ] Results match expected output
-- [ ] No error messages
 
 ---
 
@@ -756,8 +408,6 @@ After running:
 6. **Share:** Add to portfolio (1-2 hours)
 
 ```
-
----
 
 **Last Updated:** January 27, 2026  
 **Quality:** ⭐⭐⭐⭐⭐ Enterprise Grade
